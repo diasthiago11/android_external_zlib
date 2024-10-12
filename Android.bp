@@ -112,10 +112,11 @@
 //     ],
 // }
 
-// Mantido para compatibilidade com o NDK
-ndk_library {
-    name: "libz",
-    symbol_file: "libz.map.txt",
-    first_version: "9",
-    unversioned_until: "current",
-}
+// Módulo libz.ndk removido
+
+// ndk_library {
+//     name: "libz",
+//     symbol_file: "libz.map.txt",
+//     first_version: "9",
+//     unversioned_until: "current",
+// }
